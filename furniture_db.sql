@@ -55,10 +55,10 @@ CREATE TABLE `contact_messages` (
 --
 
 INSERT INTO `contact_messages` (`id`, `name`, `email`, `message`, `created_at`, `status`) VALUES
-(1, 'Ashish Prajapati', 'ap5381545@gmail.com', 'i want to customize the tv stand', '2025-03-27 08:22:52', ''),
-(2, 'ashutosh prajapati', 'prajapatiashutosh54@gmail.com', 'Thanks for the Products.', '2025-03-27 08:26:41', ''),
-(3, 'ashutosh prajapati', 'prajapatiashutosh54@gmail.com', 'i want a wooden chair', '2025-03-27 08:27:13', ''),
-(4, 'Ashish Prajapati', 'ap5381545@gmail.com', 'i Want to customize the table.', '2025-03-27 08:30:19', '');
+(1, 'Ashish Prajapati', 'twest101@gmail.com', 'i want to customize the tv stand', '2025-03-27 08:22:52', ''),
+(2, 'ashutosh prajapati', 'test23@gmail.com', 'Thanks for the Products.', '2025-03-27 08:26:41', ''),
+(3, 'ashutosh prajapati', 'test24@gmail.com', 'i want a wooden chair', '2025-03-27 08:27:13', ''),
+(4, 'Ashish Prajapati', 'test010@gmail.com', 'i Want to customize the table.', '2025-03-27 08:30:19', '');
 
 -- --------------------------------------------------------
 
@@ -166,8 +166,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `full_name`, `role`, `created_at`) VALUES
 (1, 'admin', 'admin@luxfurn.com', '$2y$10$Wd8/uvq.p.Z3oNI5zqeDn.GAWBl7yGCpQHGkw9O4.UZtX3EzrQIHi', 'Admin User', 'admin', '2025-03-27 12:10:26'),
-(4, 'Ashish', 'ap5381545@gmail.com', '$2y$10$X2zkOZdHe7qj/DSZbrWoM.5xZSumUZKq5M5nOPDbMUAQY8tOY0o92', 'Ashish Prajapati', 'user', '2025-03-27 12:48:45'),
-(5, 'Ashutosh', 'prajapatiashutosh54@gmail.com', '$2y$10$Og/J9OOCipeBW33STEvnuu304RQk7IV692D.ceuTchy14hKEimFV.', 'ashutosh prajapati', 'user', '2025-03-27 12:55:29');
+(4, 'Ashish', 'test222@gmail.com', '$2y$10$X2zkOZdHe7qj/DSZbrWoM.5xZSumUZKq5M5nOPDbMUAQY8tOY0o92', 'Ashish Prajapati', 'user', '2025-03-27 12:48:45'),
+(5, 'Ashutosh', 'test111@gmail.com', '$2y$10$Og/J9OOCipeBW33STEvnuu304RQk7IV692D.ceuTchy14hKEimFV.', 'ashutosh prajapati', 'user', '2025-03-27 12:55:29');
 
 -- --------------------------------------------------------
 
